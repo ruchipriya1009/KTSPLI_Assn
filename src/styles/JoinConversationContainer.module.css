@@ -1,0 +1,727 @@
+.joinThe {
+  position: relative;
+  line-height: 46px;
+  display: inline-block;
+  min-width: 78px;
+  z-index: 1;
+}
+.joinTheWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 4px;
+}
+.conversation,
+.uttrakhandgames2024 {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  z-index: 1;
+}
+.conversation {
+ 
+  align-self: stretch;
+  height: 65px;
+  font-size: 70px;
+  line-height: 110px;
+  font-family: Paris2024-Variable;
+  color: #81378f;
+  margin-bottom: 15px;
+
+}
+.uttrakhandgames2024 {
+  flex: 1;
+  line-height: 46px;
+  max-width: 100%;
+}
+.uttrakhandgames2024Wrapper {
+  width: 349px;
+  flex-direction: row;
+  padding: 0 4px;
+  font-size: 30px;
+}
+.joinDetails,
+.joinUttarakhandGames,
+.uttrakhandgames2024Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.joinUttarakhandGames {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 1px 0 0;
+  gap: 14.5px;
+}
+.joinDetails {
+  width: 690.8px;
+  flex-direction: row;
+  padding: 0 5px;
+}
+.allTogether {
+  align-self: stretch;
+  height: 31.4px;
+  line-height: 40px;
+  text-transform: uppercase;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.allTogether,
+.b,
+.states {
+  position: relative;
+  z-index: 1;
+}
+.b {
+  line-height: 46px;
+  display: inline-block;
+  min-width: 65px;
+}
+.states {
+  align-self: stretch;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-family: Lato;
+  color: #959595;
+}
+.statesBoard {
+  width: 69px;
+  gap: 20px;
+  font-size: 60px;
+  font-family: Paris2024-Variable;
+}
+.statesBoard,
+.togetherCollectively,
+.togetherCollectivelyWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.togetherCollectively {
+  align-self: stretch;
+  gap: 144.2px;
+}
+.togetherCollectivelyWrapper {
+  width: 205.1px;
+  padding: 5.5px 25px 0 0;
+  box-sizing: border-box;
+}
+.frameChild {
+  height: 291.5px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid #959595;
+  box-sizing: border-box;
+  opacity: 0.5;
+  z-index: 1;
+}
+.b1,
+.collectively {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.collectively {
+  width: 195px;
+  height: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+.b1 {
+  line-height: 46px;
+  min-width: 108px;
+  white-space: nowrap;
+}
+.unionTerritories {
+  margin: 0;
+}
+.unionTerritoriesContainer {
+  align-self: stretch;
+  height: 60px;
+  position: relative;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-family: Lato;
+  color: #959595;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.parent {
+  align-self: stretch;
+  gap: 20px;
+  font-size: 60px;
+  font-family: Paris2024-Variable;
+}
+.collectivelyParent,
+.frameWrapper,
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.collectivelyParent {
+  align-self: stretch;
+  gap: 106px;
+}
+.frameWrapper {
+  flex: 1;
+  padding: 1.1px 0 0;
+  box-sizing: border-box;
+  min-width: 155px;
+}
+.frameItem {
+  height: 291.5px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid #959595;
+  box-sizing: border-box;
+  opacity: 0.5;
+  z-index: 1;
+}
+.weAreUnified1 {
+  width: 153px;
+  line-height: 28px;
+  text-transform: uppercase;
+  display: inline-block;
+  white-space: nowrap;
+}
+.athletes,
+.b2,
+.weAreUnified1 {
+  position: relative;
+  z-index: 1;
+}
+.b2 {
+  align-self: stretch;
+  line-height: 46px;
+}
+.athletes {
+  width: 93px;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-family: Lato;
+  color: #959595;
+  display: inline-block;
+  min-width: 93px;
+}
+.athletesCount,
+.weAreUnified {
+  align-self: stretch;
+  flex-direction: column;
+}
+.athletesCount {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 60px;
+  font-family: Paris2024-Variable;
+}
+.weAreUnified {
+  gap: 139.5px;
+}
+.frameParent,
+.unifiedAthletes,
+.unifiedContainerInner,
+.weAreUnified {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.unifiedAthletes {
+  width: 197px;
+  flex-direction: column;
+  padding: 13.1px 0 0;
+  box-sizing: border-box;
+}
+.frameParent,
+.unifiedContainerInner {
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  gap: 23.2px;
+}
+.unifiedContainerInner {
+  width: 749.5px;
+  padding: 0 7px;
+  box-sizing: border-box;
+}
+.competitionDaysContainerChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  margin-top: -1px;
+  z-index: 1;
+}
+.competition {
+  align-self: stretch;
+  height: 16px;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+.b3,
+.competition,
+.days {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.b3 {
+  line-height: 46px;
+  min-width: 64px;
+}
+.days {
+  width: 50px;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-family: Lato;
+  color: #959595;
+}
+.competitionDaysCount {
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  gap: 24px;
+  font-size: 60px;
+  font-family: Paris2024-Variable;
+}
+.competitionDaysCount,
+.competitionTitle,
+.competitionTitleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.competitionTitle {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 115px;
+}
+.competitionTitleWrapper {
+  width: 144px;
+  justify-content: flex-end;
+  padding: 0 0 13.1px;
+  box-sizing: border-box;
+}
+.serviceVolunteersContainerChild {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid #959595;
+  box-sizing: border-box;
+  opacity: 0.5;
+  z-index: 1;
+}
+.service {
+  height: 16px;
+  line-height: 46px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 85px;
+}
+.b4,
+.service,
+.volunteers {
+  position: relative;
+  z-index: 1;
+}
+.b4 {
+  align-self: stretch;
+  line-height: 46px;
+}
+.volunteers {
+  width: 127px;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-family: Lato;
+  color: #959595;
+  display: inline-block;
+  min-width: 127px;
+}
+.volunteersCount {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 24px;
+  font-size: 60px;
+  font-family: Paris2024-Variable;
+}
+.serviceContainer,
+.serviceParent,
+.volunteersCount {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.serviceParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 115px;
+}
+.serviceContainer {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 13.1px;
+}
+.frameGroup,
+.serviceVolunteersContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.serviceVolunteersContainer {
+  height: 290.5px;
+  width: 220.5px;
+  justify-content: flex-start;
+  gap: 52.5px;
+}
+.frameGroup {
+  flex: 1;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.competitionContainer,
+.competitionDaysContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.competitionContainer {
+  width: 617.8px;
+  flex-direction: row;
+  padding: 0 7px;
+  box-sizing: border-box;
+}
+.competitionDaysContainer {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 15.3px;
+}
+.unifiedContainer {
+  align-self: stretch;
+  gap: 34.2px;
+}
+.joinConversationTitleContai,
+.joinTheConversation,
+.unifiedContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.joinTheConversation {
+  align-self: stretch;
+  gap: 89px;
+}
+.joinConversationTitleContai {
+  width: 780.5px;
+  padding: 72.5px 0 0;
+  box-sizing: border-box;
+  min-width: 780.5px;
+}
+.frameInner {
+  height: 100%;
+  width: 1919px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: -1080px;
+  max-height: 100%;
+}
+.rectangleIcon,
+.vectorParent {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.rectangleIcon {
+  height: 1274px;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.vectorParent {
+  min-width: 546px;
+}
+.innerJoinConversationContai,
+.joinConversationTitleContaiParent,
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.joinConversationTitleContaiParent {
+  width: 1789.3px;
+  gap: 168.8px;
+  max-width: 108%;
+  flex-shrink: 0;
+}
+.innerJoinConversationContai {
+  width: 1669.5px;
+  padding: 0 5px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.viewMore,
+.youCanHelp {
+  position: relative;
+  text-transform: uppercase;
+}
+.youCanHelp {
+  height: 76px;
+  width: 336px;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.viewMore {
+  line-height: 12px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 93px;
+}
+.viewMoreButton,
+.viewMoreButtonContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.viewMoreButton {
+  border-radius: 30px;
+  background: linear-gradient(90deg, #bb0490, #0c2e5e);
+  flex-direction: row;
+  padding: 18px 23px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.viewMoreButtonContainer {
+  flex-direction: column;
+  padding: 14px 0 0;
+  font-size: 16px;
+  color: #fff;
+  font-family: Lato;
+}
+.donateContainer,
+.joinConversationContainer {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.donateContainer {
+  width: 1684.5px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 20px;
+  font-size: 100px;
+  color: #81378f;
+  font-family: Paris2024-Variable;
+}
+.joinConversationContainer {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 140px;
+  text-align: left;
+  font-size: 24px;
+  color: #212121;
+  font-family: Lato;
+}
+@media screen and (max-width: 1575px) {
+  .joinConversationTitleContai {
+    flex: 1;
+  }
+  .joinConversationTitleContaiParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .joinConversationTitleContai {
+    padding-top: 47px;
+    box-sizing: border-box;
+  }
+  .joinConversationTitleContaiParent {
+    gap: 84px;
+  }
+  .joinConversationContainer {
+    gap: 70px;
+  }
+}
+@media screen and (max-width: 825px) {
+  .conversation {
+    font-size: 50px;
+    line-height: 66px;
+  }
+  .b,
+  .uttrakhandgames2024 {
+    font-size: 24px;
+    line-height: 37px;
+  }
+  .b {
+    font-size: 48px;
+  }
+  .frameChild {
+    width: 100%;
+    height: 1px;
+  }
+  .b1 {
+    font-size: 48px;
+    line-height: 37px;
+  }
+  .frameItem {
+    width: 100%;
+    height: 1px;
+  }
+  .b2 {
+    font-size: 48px;
+    line-height: 37px;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .b3,
+  .b4 {
+    font-size: 48px;
+    line-height: 37px;
+  }
+  .joinTheConversation {
+    gap: 44px;
+  }
+  .joinConversationTitleContai {
+    padding-top: 31px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .vectorParent {
+    min-width: 100%;
+  }
+  .joinConversationTitleContaiParent {
+    gap: 42px;
+  }
+  .youCanHelp {
+    font-size: 50px;
+    line-height: 28px;
+  }
+  .donateContainer {
+    flex-wrap: wrap;
+  }
+  .joinConversationContainer {
+    gap: 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .joinThe {
+    font-size: 19px;
+    line-height: 37px;
+  }
+  .conversation {
+    font-size: 30px;
+    line-height: 44px;
+  }
+  .uttrakhandgames2024 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .allTogether {
+    font-size: 19px;
+    line-height: 32px;
+  }
+  .b {
+    font-size: 36px;
+    line-height: 28px;
+  }
+  .collectively,
+  .states {
+    font-size: 19px;
+    line-height: 21px;
+  }
+  .collectively {
+    line-height: 40px;
+  }
+  .b1 {
+    font-size: 36px;
+    line-height: 28px;
+  }
+  .unionTerritoriesContainer {
+    font-size: 19px;
+    line-height: 24px;
+  }
+  .weAreUnified1 {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .b2 {
+    font-size: 36px;
+    line-height: 28px;
+  }
+  .athletes,
+  .competition {
+    font-size: 19px;
+    line-height: 21px;
+  }
+  .competition {
+    line-height: 37px;
+  }
+  .b3 {
+    font-size: 36px;
+    line-height: 28px;
+  }
+  .days,
+  .service {
+    font-size: 19px;
+    line-height: 21px;
+  }
+  .service {
+    line-height: 37px;
+  }
+  .b4 {
+    font-size: 36px;
+    line-height: 28px;
+  }
+  .volunteers {
+    font-size: 19px;
+    line-height: 21px;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .unifiedContainer {
+    gap: 17px;
+  }
+  .joinTheConversation {
+    gap: 22px;
+  }
+  .joinConversationTitleContaiParent {
+    gap: 21px;
+  }
+  .youCanHelp {
+    font-size: 30px;
+    line-height: 18px;
+  }
+  .joinConversationContainer {
+    gap: 17px;
+  }
+}

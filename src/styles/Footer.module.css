@@ -1,0 +1,929 @@
+.emblemContainerChild,
+.maskGroupIcon {
+  position: absolute;
+  top: 0;
+  left: -0.2px;
+  width: 100%;
+  height: 100%;
+}
+.emblemContainerChild {
+  background-color: #0c2e5e;
+}
+.maskGroupIcon {
+  z-index: 1;
+}
+.divider,
+.emblemContainer {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+}
+.emblemContainer {
+  height: 100%;
+  top: 0;
+}
+.divider {
+  height: 72.3px;
+  left: 0;
+  background-color: #011d46;
+  z-index: 2;
+}
+.nationalGames2024 {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+  text-transform: uppercase;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.home {
+  display: inline-block;
+  min-width: 52px;
+}
+.home,
+.scheduleAndResults {
+  position: relative;
+}
+.medalTally,
+.media {
+  position: relative;
+  display: inline-block;
+  min-width: 95px;
+}
+.media {
+  min-width: 53px;
+}
+.gamesCulture,
+.milestones,
+.teams,
+.visit {
+  position: relative;
+  display: inline-block;
+  min-width: 36px;
+}
+.gamesCulture,
+.milestones,
+.teams {
+  min-width: 55px;
+}
+.gamesCulture,
+.milestones {
+  min-width: 92px;
+}
+.gamesCulture {
+  height: 13px;
+  min-width: 126px;
+}
+.nationalGames2024Parent,
+.nationalGamesLinkItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nationalGamesLinkItems {
+  gap: 13.2px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Noto Sans";
+}
+.nationalGames2024Parent {
+  width: 239px;
+  gap: 22.1px;
+  min-width: 239px;
+  z-index: 2;
+}
+.sports {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 80px;
+}
+.aquatics,
+.diving,
+.swimming,
+.waterPolo {
+  position: relative;
+  display: inline-block;
+  min-width: 73px;
+}
+.diving,
+.swimming,
+.waterPolo {
+  min-width: 90px;
+}
+.diving,
+.waterPolo {
+  min-width: 54px;
+}
+.waterPolo {
+  min-width: 93px;
+}
+.archery,
+.athletics,
+.badminton,
+.basketball {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+}
+.athletics,
+.badminton,
+.basketball {
+  min-width: 73px;
+}
+.badminton,
+.basketball {
+  min-width: 94px;
+}
+.basketball {
+  min-width: 88px;
+}
+.boxing,
+.canoeSlalom,
+.canoeSprint,
+.canoeing {
+  position: relative;
+  display: inline-block;
+  min-width: 59px;
+}
+.canoeSlalom,
+.canoeSprint,
+.canoeing {
+  min-width: 81px;
+}
+.canoeSlalom,
+.canoeSprint {
+  min-width: 120px;
+}
+.canoeSlalom {
+  min-width: 126px;
+}
+.bmx,
+.cycling,
+.kayaking,
+.roadRacing,
+.rowing {
+  position: relative;
+  display: inline-block;
+  min-width: 77px;
+}
+.bmx,
+.cycling,
+.roadRacing,
+.rowing {
+  min-width: 63px;
+}
+.bmx,
+.cycling,
+.roadRacing {
+  min-width: 61px;
+}
+.bmx,
+.roadRacing {
+  min-width: 39px;
+}
+.roadRacing {
+  height: 13px;
+  min-width: 105px;
+}
+.sportsLinkItemsOne,
+.sportsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sportsLinkItemsOne {
+  gap: 13.2px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Noto Sans";
+}
+.sportsParent {
+  gap: 22.1px;
+  font-size: 24px;
+  color: #fff;
+  font-family: Paris2024-Variable;
+}
+.equestrian,
+.fencing,
+.football,
+.trackRacing {
+  position: relative;
+  display: inline-block;
+  min-width: 106px;
+}
+.equestrian,
+.fencing,
+.football {
+  min-width: 91px;
+}
+.fencing,
+.football {
+  min-width: 67px;
+}
+.football {
+  min-width: 69px;
+}
+.gymnastics {
+  position: relative;
+  min-width: 98px;
+}
+.golf,
+.gymnastics,
+.handball {
+  display: inline-block;
+}
+.golf {
+  position: relative;
+  min-width: 35px;
+}
+.handball {
+  min-width: 77px;
+}
+.beachHandball,
+.handball {
+  position: relative;
+}
+.hockey,
+.judo,
+.kabaddi,
+.karateDo {
+  position: relative;
+  display: inline-block;
+  min-width: 62px;
+}
+.judo,
+.kabaddi,
+.karateDo {
+  min-width: 39px;
+}
+.kabaddi,
+.karateDo {
+  min-width: 70px;
+}
+.karateDo {
+  min-width: 85px;
+}
+.khoKho,
+.netball,
+.rugbySevens,
+.testSport {
+  position: relative;
+  display: inline-block;
+  min-width: 77px;
+}
+.netball,
+.rugbySevens,
+.testSport {
+  min-width: 85px;
+}
+.netball,
+.rugbySevens {
+  min-width: 61px;
+}
+.rugbySevens {
+  min-width: 117px;
+}
+.saling,
+.wushu {
+  color: #fff;
+  opacity: 0.7;
+}
+.saling {
+  position: absolute;
+  margin: 0 !important;
+  bottom: -11px;
+  left: 0;
+  display: inline-block;
+  min-width: 52px;
+}
+.wushu {
+  width: 59px;
+  position: relative;
+  display: none;
+  z-index: 17;
+}
+.trackRacingParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 26.2px;
+  position: relative;
+  gap: 13.2px;
+}
+.sepaktakraw,
+.shooting {
+  position: relative;
+  display: inline-block;
+  min-width: 109px;
+}
+.shooting {
+  min-width: 77px;
+}
+.shootingRifle {
+  display: inline-block;
+  min-width: 118px;
+}
+.shootingPiston,
+.shootingRifle,
+.shootingShotgun,
+.squash {
+  position: relative;
+}
+.squash {
+  display: inline-block;
+  min-width: 62px;
+}
+.tableTennis,
+.taekwondo,
+.tennis,
+.triathlon {
+  position: relative;
+  display: inline-block;
+  min-width: 97px;
+}
+.tableTennis,
+.tennis,
+.triathlon {
+  min-width: 55px;
+}
+.tableTennis,
+.triathlon {
+  min-width: 104px;
+}
+.triathlon {
+  min-width: 76px;
+}
+.volleyball {
+  display: inline-block;
+  min-width: 81px;
+}
+.beachVolleyball,
+.volleyball {
+  position: relative;
+}
+.weightlifting,
+.wrestling,
+.wushu1 {
+  position: relative;
+  display: inline-block;
+  min-width: 109px;
+}
+.wrestling,
+.wushu1 {
+  min-width: 81px;
+}
+.wushu1 {
+  min-width: 59px;
+}
+.synchronizedSwimming {
+  position: absolute;
+  margin: 0 !important;
+  bottom: -11px;
+  left: 0;
+  color: #fff;
+  opacity: 0.7;
+}
+.wushu2 {
+  width: 59px;
+  position: relative;
+  color: #fff;
+  display: none;
+  opacity: 0.7;
+  z-index: 16;
+}
+.sepaktakrawParent,
+.sportsLinkItemsThree {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sepaktakrawParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 26.1px;
+  position: relative;
+  gap: 13.2px;
+}
+.sportsLinkItemsThree {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 37.2px;
+  box-sizing: border-box;
+  min-width: 135px;
+}
+.frameParent {
+  width: 531px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 32px;
+  min-width: 531px;
+  max-width: 100%;
+  z-index: 2;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Noto Sans";
+}
+.nationalGamesLinks,
+.nationalGamesLinksWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.nationalGamesLinks {
+  width: 878.4px;
+  justify-content: space-between;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.nationalGamesLinksWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.thNationalGames {
+  width: 294.5px;
+  position: relative;
+  text-transform: uppercase;
+  display: none;
+  flex-shrink: 0;
+}
+.frameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.helpline {
+  height: 14px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 96px;
+  z-index: 1;
+}
+.rectangleParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 21.1px 33px;
+  position: relative;
+}
+.frameContainer {
+  flex: 1;
+}
+.frameContainer,
+.frameWrapper,
+.thNationalGames2024UttaraParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex: 1;
+  font-size: 20px;
+  color: #0c2e5e;
+}
+.thNationalGames2024UttaraParent {
+  width: 162.5px;
+  flex-shrink: 0;
+  z-index: 2;
+  font-family: "Noto Sans";
+}
+.navLinks,
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navLinks {
+  width: 1201.8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.5px;
+}
+.navigation {
+  width: 1386.3px;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 24px;
+  font-family: Paris2024-Variable;
+}
+.copyrightUttarakhand {
+  height: 14px;
+  text-transform: uppercase;
+  max-width: 100%;
+  z-index: 3;
+}
+.copyrightUttarakhand,
+.directorSports,
+.ukgocInfo {
+  position: relative;
+  display: inline-block;
+}
+.ukgocInfo {
+  width: 135px;
+  line-height: 27px;
+  text-transform: uppercase;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.directorSports {
+  width: 147.7px;
+}
+.sportsDirectorateUttarakhan {
+  align-self: stretch;
+  position: relative;
+}
+.uKGOCAddress {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 13.2px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Noto Sans";
+}
+.uKGOC,
+.uKGOCAddress,
+.uKGOCDetails {
+  display: flex;
+  align-items: flex-start;
+}
+.uKGOCDetails {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 22.1px;
+  flex-shrink: 0;
+}
+.uKGOC {
+  width: 355.7px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 27px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.downloadTheApp {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+  text-transform: uppercase;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.socialChild {
+  height: 24.1px;
+  width: 24px;
+  position: relative;
+}
+.logoFbSimple2Icon,
+.logoInstagram1Icon {
+  height: 24.1px;
+  width: 12.5px;
+  position: relative;
+}
+.logoInstagram1Icon {
+  width: 24px;
+}
+.kooe613b8426bd29b24c68d1431b7Icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.koo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1.5px;
+}
+.linkedinOption1Icon {
+  height: 24.1px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.social {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+.appDownloadContent,
+.appDownloadContentWrapper,
+.socialLinks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialLinks {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 1px;
+}
+.appDownloadContent,
+.appDownloadContentWrapper {
+  flex-direction: column;
+}
+.appDownloadContent {
+  align-self: stretch;
+  gap: 47.8px;
+}
+.appDownloadContentWrapper {
+  width: 206px;
+  padding: 8.6px 0 0;
+  box-sizing: border-box;
+}
+.maharanaPratapSports,
+.pin248008 {
+  width: 295.9px;
+  position: relative;
+  display: inline-block;
+}
+.pin248008 {
+  width: 109.9px;
+}
+.ph01352781414 {
+  width: 168.8px;
+}
+.downloadTheApp1,
+.emailId,
+.ph01352781414 {
+  position: relative;
+  display: inline-block;
+}
+.emailId {
+  align-self: stretch;
+  height: 13px;
+}
+.downloadTheApp1 {
+  width: 206px;
+  font-size: 24px;
+  line-height: 27px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: Paris2024-Variable;
+  color: #fff;
+  white-space: nowrap;
+  margin-top: -2.3px;
+}
+.contactDetails,
+.email {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactDetails {
+  padding: 0 0 50.9px;
+  gap: 13.2px;
+}
+.appStore1Icon,
+.googlePlay1Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.appStoreIcons {
+  width: 203px;
+  height: 138.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.address,
+.appDownload {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.address {
+  width: 328.7px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 14.3px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Noto Sans";
+}
+.appDownload {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.privacy,
+.uKGOCParent,
+.visitors5553232 {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 4;
+}
+.uKGOCParent {
+  width: 1692.4px;
+  height: 497.6px;
+  top: 121px;
+  right: 102.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 389.2px;
+  box-sizing: border-box;
+  gap: 13.1px;
+  max-width: 100%;
+  font-size: 24px;
+  font-family: Paris2024-Variable;
+}
+.privacy,
+.visitors5553232 {
+  bottom: 16.2px;
+}
+.privacy {
+  right: 139.5px;
+  display: inline-block;
+  min-width: 79px;
+}
+.visitors5553232 {
+  right: 258.5px;
+  text-transform: uppercase;
+}
+.uttrakhand1Icon,
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.uttrakhand1Icon {
+  height: 78.75%;
+  width: 26.81%;
+  top: 3.75%;
+  right: 48.16%;
+  bottom: 17.5%;
+  left: 25.03%;
+  object-fit: contain;
+  z-index: 1;
+}
+.vectorParent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.groupDiv {
+  width: 341.6px;
+  height: 104px;
+  position: absolute;
+  margin: 0 !important;
+  top: 121px;
+  left: 130.5px;
+  z-index: 5;
+}
+.wrapperGroup1379Child {
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  transform: scale(1.667);
+}
+.frameItem,
+.wrapperGroup1379 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 95px;
+  z-index: 4;
+}
+.wrapperGroup1379 {
+  right: 130.8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameItem {
+  left: 132.5px;
+}
+.emblemContainerParent,
+.footer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.emblemContainerParent {
+  padding: 121px 125px 29.2px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 52.3px;
+}
+.footer {
+  z-index: 5;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Noto Sans";
+}
+@media screen and (max-width: 1250px) {
+  .frameParent,
+  .nationalGames2024Parent {
+    flex: 1;
+  }
+  .nationalGamesLinks {
+    flex-wrap: wrap;
+  }
+  .emblemContainerParent {
+    padding: 79px 62px 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .frameParent {
+    gap: 16px;
+    min-width: 100%;
+  }
+  .appDownload,
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .uKGOCParent {
+    height: auto;
+  }
+  .emblemContainerParent {
+    gap: 26px;
+    padding-left: 31px;
+    padding-right: 31px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nationalGames2024,
+  .sports,
+  .thNationalGames {
+    font-size: 19px;
+  }
+  .copyrightUttarakhand,
+  .helpline {
+    font-size: 16px;
+  }
+  .downloadTheApp,
+  .downloadTheApp1,
+  .ukgocInfo {
+    font-size: 19px;
+  }
+  .privacy,
+  .visitors5553232 {
+    font-size: 16px;
+  }
+  .emblemContainerParent {
+    padding-top: 51px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,131 @@
+.image8Icon,
+.sports {
+  position: relative;
+  z-index: 2;
+}
+.image8Icon {
+  height: 88px;
+  width: 88px;
+  object-fit: cover;
+}
+.sports {
+  align-self: stretch;
+  white-space: nowrap;
+}
+.eventDetails,
+.sportNames {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sportNames {
+  flex: 1;
+  flex-direction: column;
+  padding: 29px 0 0;
+}
+.eventDetails {
+  width: 244.9px;
+  flex-direction: row;
+  gap: 49.9px;
+}
+.judo {
+  position: relative;
+  display: inline-block;
+  min-width: 49px;
+  z-index: 2;
+}
+.eventCategories {
+  width: 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 29px 20px 0 0;
+  box-sizing: border-box;
+}
+.womens48kg {
+  position: relative;
+  z-index: 2;
+}
+.weightClasses {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 29px 5px 0 0;
+}
+.elimination {
+  position: relative;
+  display: inline-block;
+  min-width: 113px;
+  z-index: 2;
+}
+.eliminationRounds {
+  width: 146.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 29px 20px 0 0;
+  box-sizing: border-box;
+}
+.rectangle2Icon {
+  height: 124px;
+  width: 1650px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 62px);
+  left: -1277.5px;
+  z-index: 1;
+}
+.indiraGandhiInternational {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  min-height: 60px;
+  z-index: 2;
+}
+.stadiumDetails {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+.eventRow,
+.stadiumDetails,
+.stadiumInfo {
+  display: flex;
+  align-items: flex-start;
+}
+.stadiumInfo {
+  width: 318px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 14px 0 0;
+  box-sizing: border-box;
+}
+.eventRow {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 25px;
+  color: #000;
+  font-family: Lato;
+}
+@media screen and (max-width: 1250px) {
+  .eventRow {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .elimination,
+  .indiraGandhiInternational,
+  .judo,
+  .sports,
+  .womens48kg {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,361 @@
+.onlyByHelping {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 60px;
+  display: inline-block;
+  width: 443px;
+}
+.appStore1Icon,
+.googlePlay1Icon {
+  position: absolute;
+  height: 56.6%;
+  width: 46.3%;
+  top: 43.4%;
+  right: 2.99%;
+  bottom: 0;
+  left: 50.71%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.googlePlay1Icon {
+  right: 53.56%;
+  left: 0.14%;
+}
+.onlyByHelpingEachOtherWeParent {
+  width: 438.4px;
+  height: 106px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.frameChild {
+  align-self: stretch;
+  height: 48px;
+  position: relative;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #bb0490, #bb0490 46%, #0c2e5e);
+}
+.watchNow {
+  height: 11px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -29px;
+}
+.rectangleParent {
+  width: 160px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 16px;
+  font-family: "Noto Sans";
+}
+.ngHomepage2Child {
+  width: 0;
+  height: 33.8px;
+  position: relative;
+  object-fit: contain;
+  display: none;
+}
+.ngHomepage2Item {
+  align-self: stretch;
+  height: 1002px;
+  position: relative;
+  background-color: #fff;
+  display: none;
+  opacity: 0.2;
+}
+.ngHomepage2Inner {
+  width: 1659px;
+  position: relative;
+  border-radius: 20px;
+  max-height: 100%;
+  display: none;
+  max-width: 100%;
+}
+.ngHomepage2Child1,
+.rectangleDiv {
+  width: 1471px;
+  height: 124px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.ngHomepage2Child1,
+.ngHomepage2Child2,
+.rectangleDiv,
+.rectangleIcon {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.rectangleIcon {
+  width: 1500px;
+  border-radius: 8px;
+  max-height: 100%;
+}
+.ngHomepage2Child2 {
+  width: 1471px;
+  height: 124px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.ngHomepage2Child3 {
+  width: 1500px;
+  border-radius: 8px;
+  max-height: 100%;
+}
+.ngHomepage2Child3,
+.ngHomepage2Child4,
+.ngHomepage2Child5 {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.ngHomepage2Child4 {
+  width: 1471px;
+  height: 124px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.ngHomepage2Child5 {
+  width: 1500px;
+  border-radius: 8px;
+  max-height: 100%;
+}
+.ngHomepage2Child6 {
+  width: 1650px;
+  border-radius: 8px;
+  max-height: 100%;
+}
+.ngHomepage2Child6,
+.ngHomepage2Child7,
+.ngHomepage2Child8 {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.ngHomepage2Child7 {
+  width: 1471px;
+  height: 124px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.ngHomepage2Child8 {
+  width: 1500px;
+  border-radius: 8px;
+  max-height: 100%;
+}
+.ngHomepage2Child9 {
+  width: 1650px;
+  border-radius: 8px;
+  max-height: 100%;
+}
+.ngHomepage2Child10,
+.ngHomepage2Child11,
+.ngHomepage2Child9 {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.ngHomepage2Child10 {
+  width: 1471px;
+  height: 124px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.ngHomepage2Child11 {
+  width: 1500px;
+  border-radius: 8px;
+  max-height: 100%;
+}
+.eventsContainer,
+.eventsContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.eventsContainer {
+  width: 1647.5px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 89.5px;
+}
+.eventsContainerWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 28px 258px 20px;
+  box-sizing: border-box;
+}
+.mascotContainerParent,
+.outerJoinConversationContai {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.outerJoinConversationContai {
+  align-self: stretch;
+  gap: 30.7px;
+  flex-shrink: 0;
+}
+.mascotContainerParent {
+  width: 1814.5px;
+  height: 3067px;
+  padding: 0 0 2164.2px 20px;
+  box-sizing: border-box;
+  gap: 120px;
+}
+.followUsContainerChild {
+  height: 964px;
+  width: 1919px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -843.6px;
+  left: -110.7px;
+}
+.followUsContainer,
+.followUsContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.followUsContent {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 150.4px;
+  gap: 30px;
+}
+.followUsContainer {
+  width: 1809.3px;
+  flex-direction: row;
+  padding: 0 0 0 20px;
+  position: relative;
+}
+.aquatics1Icon,
+.aquatics2Icon {
+  width: 248.2px;
+  height: 256.2px;
+  position: relative;
+  object-fit: contain;
+  display: none;
+}
+.frameParent,
+.partners {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1654.8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 120px;
+}
+.partners {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 127.8px 21px;
+  box-sizing: border-box;
+}
+.ngHomepage2 {
+  width: 100%;
+  position: relative;
+  background-color: #f3f3f3;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 36px;
+  color: #fff;
+  font-family: Lato;
+}
+@media screen and (max-width: 1575px) {
+  .mascotContainerParent {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .eventsContainerWrapper {
+    padding-bottom: 168px;
+    box-sizing: border-box;
+  }
+  .followUsContent,
+  .mascotContainerParent {
+    padding-bottom: 595px;
+    box-sizing: border-box;
+  }
+  .followUsContent {
+    padding-bottom: 64px;
+  }
+  .frameParent {
+    gap: 60px;
+  }
+  .partners {
+    padding-bottom: 54px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .onlyByHelping {
+    font-size: 29px;
+    line-height: 48px;
+  }
+  .eventsContainer {
+    gap: 45px;
+  }
+  .eventsContainerWrapper {
+    padding-bottom: 109px;
+    box-sizing: border-box;
+  }
+  .outerJoinConversationContai {
+    gap: 15px;
+  }
+  .mascotContainerParent {
+    gap: 60px;
+    padding-bottom: 387px;
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: 30px;
+  }
+  .partners {
+    padding-bottom: 35px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .onlyByHelping {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .eventsContainer {
+    gap: 22px;
+  }
+  .mascotContainerParent {
+    gap: 30px;
+  }
+  .followUsContent {
+    padding-bottom: 42px;
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: 15px;
+  }
+}

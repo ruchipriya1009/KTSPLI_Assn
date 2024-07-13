@@ -1,0 +1,632 @@
+.frameChild {
+ 
+  height: 1244px;
+  width: 1919px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -1123px;
+  left: -112px;
+}
+.medalGoldBelt2Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.medalImageContainer {
+  height: 101.8px;
+  width: 67.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 18.2px 0 0;
+  box-sizing: border-box;
+}
+.medalTally {
+  height: 120px;
+  width: 489px;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(90deg, #8f8250, #2d2919);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 100%;
+}
+.tallyTitleRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 32px;
+  max-width: 100%;
+}
+.rankTableChild,
+.tallyTableChild {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.tallyTableChild {
+  align-self: stretch;
+  height: 562px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rankTableChild {
+  height: 72px;
+  width: 840px;
+}
+.rank {
+  position: relative;
+  display: inline-block;
+  min-width: 43px;
+  z-index: 2;
+}
+.rankHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 25px 0 0;
+}
+.image129Icon {
+  width: 38px;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 51px;
+}
+.image129Icon,
+.image130Icon,
+.image131Icon,
+.total {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.image130Icon,
+.image131Icon {
+  width: 38px;
+  max-height: 100%;
+  object-fit: contain;
+  min-height: 51px;
+}
+.total {
+  text-transform: uppercase;
+}
+.medalIcons,
+.rankTable,
+.totalHeading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.totalHeading {
+  width: 51px;
+  flex-direction: column;
+  padding: 25px 0 0;
+  box-sizing: border-box;
+}
+.medalIcons,
+.rankTable {
+  flex-direction: row;
+  gap: 86.6px;
+  max-width: 100%;
+}
+.rankTable {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0 solid #000;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 33px 21px 29px;
+  gap: 20px;
+  z-index: 1;
+  font-size: 20px;
+  color: #fff;
+}
+.tableData,
+.tableData1,
+.tableData2,
+.tableData3,
+.tableData4,
+.tableData5,
+.tableData6 {
+  position: absolute;
+  top: 88.8px;
+  left: 44.5px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 11px;
+  z-index: 1;
+}
+.tableData1,
+.tableData2,
+.tableData3,
+.tableData4,
+.tableData5,
+.tableData6 {
+  top: 212.4px;
+}
+.tableData2,
+.tableData3,
+.tableData4,
+.tableData5,
+.tableData6 {
+  top: 336px;
+}
+.tableData3,
+.tableData4,
+.tableData5,
+.tableData6 {
+  top: 96px;
+  left: 390.6px;
+  min-width: 21px;
+}
+.tableData4,
+.tableData5,
+.tableData6 {
+  top: 216px;
+}
+.tableData5,
+.tableData6 {
+  top: 336px;
+}
+.tableData6 {
+  top: 96px;
+  left: 515.3px;
+}
+.tableData10,
+.tableData11,
+.tableData12,
+.tableData13,
+.tableData14,
+.tableData7,
+.tableData8,
+.tableData9 {
+  position: absolute;
+  top: 216px;
+  left: 515.3px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 21px;
+  z-index: 1;
+}
+.tableData10,
+.tableData11,
+.tableData12,
+.tableData13,
+.tableData14,
+.tableData8,
+.tableData9 {
+  top: 336px;
+}
+.tableData10,
+.tableData11,
+.tableData12,
+.tableData13,
+.tableData14,
+.tableData9 {
+  top: 96px;
+  left: 639.9px;
+}
+.tableData10,
+.tableData11,
+.tableData12,
+.tableData13,
+.tableData14 {
+  top: 216px;
+}
+.tableData11,
+.tableData12,
+.tableData13,
+.tableData14 {
+  top: 336px;
+}
+.tableData12,
+.tableData13,
+.tableData14 {
+  top: 96px;
+  left: 765.5px;
+  min-width: 32px;
+}
+.tableData13,
+.tableData14 {
+  top: 216px;
+}
+.tableData14 {
+  top: 336px;
+  left: 771px;
+  min-width: 21px;
+}
+.state {
+  position: relative;
+  display: inline-block;
+  min-width: 43px;
+  flex-shrink: 0;
+}
+.stateHeading {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 47px;
+}
+.maharashtra {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 102px;
+}
+.maharashtraRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 16px 0 19px;
+}
+.haryana,
+.servicesSportsControl {
+  position: relative;
+  font-weight: 500;
+}
+.servicesSportsControl {
+  align-self: stretch;
+}
+.haryana {
+  display: inline-block;
+  min-width: 68px;
+}
+.haryanaRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 34px 0 35px;
+}
+.servicesRow {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 27.5px;
+}
+.madhyaPradesh {
+  position: relative;
+  font-weight: 500;
+}
+.states {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 2px 0 3px;
+}
+.kerala {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 52px;
+}
+.states1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 41px 0 44px;
+}
+.otherStates {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 38px;
+}
+.otherStates,
+.stateList,
+.stateTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.stateList {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 26.5px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 18px;
+  color: #212121;
+}
+.stateTable {
+  position: absolute;
+  top: 25px;
+  left: 157.7px;
+  background-color: #fff;
+  width: 137.8px;
+  height: 324px;
+  align-items: flex-start;
+  padding: 0 0 300px;
+  box-sizing: border-box;
+  gap: 47px;
+  z-index: 2;
+  font-size: 20px;
+  color: #fff;
+}
+.tableRows {
+  align-self: stretch;
+  height: 358px;
+  position: relative;
+  max-width: 100%;
+}
+.totalBoxChild {
+  height: 80px;
+  width: 840px;
+  position: relative;
+  flex-shrink: 0;
+  display: none;
+}
+.grandTotal {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 124px;
+  z-index: 2;
+}
+.grandTotalHeading {
+  width: 232.6px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+}
+.medalsCount,
+.medalsCount1,
+.medalsCount2,
+.totalCount {
+  height: 13px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 32px;
+  z-index: 2;
+}
+.medalsCount2 {
+  width: 42px;
+  min-width: 42px;
+}
+.totalBox,
+.totalMedals {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.totalMedals {
+  width: 292.7px;
+  flex-shrink: 0;
+  justify-content: space-between;
+  gap: 20px;
+}
+.totalBox {
+  align-self: stretch;
+  background-color: #fff;
+  overflow-x: auto;
+  justify-content: flex-start;
+  padding: 33.5px 37px 24.5px 59px;
+  gap: 92.7px;
+  z-index: 1;
+}
+.refresh {
+  flex: 1;
+  position: relative;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.buttons {
+  width: 140px;
+  box-shadow: 0 4px 10px rgba(0, 197, 236, 0.1);
+  border-radius: 30px;
+  background-color: #81378f;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 18px 31px 19px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.viewMore {
+  flex: 1;
+  position: relative;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.buttons1,
+.tableActions,
+.tableButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttons1 {
+  flex: 1;
+  box-shadow: 0 4px 20px rgba(0, 197, 236, 0.1);
+  border-radius: 30px;
+  border: 1px solid #81378f;
+  box-sizing: border-box;
+  padding: 16px 34px 17px 35px;
+  min-width: 109px;
+  white-space: nowrap;
+  z-index: 1;
+  color: #81378f;
+}
+.tableActions,
+.tableButtons {
+  max-width: 100%;
+}
+.tableButtons {
+  flex: 1;
+  gap: 24.1px;
+}
+.tableActions {
+  width: 402.1px;
+  padding: 0 29px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Noto Sans";
+}
+.totalRow {
+  gap: 30.3px;
+}
+.tallyHeader,
+.tallyTable,
+.totalRow {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.tallyTable {
+  background-color: #f5f5f5;
+  padding: 0 0 30.7px;
+  box-sizing: border-box;
+  gap: 15px;
+  font-size: 18px;
+  font-family: Lato;
+}
+.tallyHeader {
+  gap: 30px;
+}
+.tallyContainerChild,
+.tallyContent {
+  flex: 1;
+  max-width: 100%;
+  min-width: 546px;
+}
+.tallyContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 118px;
+  box-sizing: border-box;
+  min-height: 830px;
+}
+.tallyContainerChild {
+  height: 951px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.tallyContainer,
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.tallyContainer {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: 0 0 151px;
+  gap: 108px;
+}
+.vectorParent {
+  width: 1808px;
+  align-items: flex-start;
+  padding: 0 0 0 20px;
+  position: relative;
+  text-align: left;
+  font-size: 100px;
+  color: #212121;
+  font-family: Paris2024-Variable;
+}
+@media screen and (max-width: 1250px) {
+  .tallyContainer {
+    padding-bottom: 98px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .medalTally {
+    font-size: 50px;
+  }
+  .tallyTitleRow {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .medalIcons,
+  .rankTable {
+    flex-wrap: wrap;
+  }
+  .tableRows {
+    height: auto;
+    min-height: 358;
+  }
+  .totalBox {
+    gap: 46px;
+    padding-left: 29px;
+    box-sizing: border-box;
+  }
+  .tallyContent {
+    padding-bottom: 77px;
+    box-sizing: border-box;
+  }
+  .tallyContainerChild,
+  .tallyContent {
+    min-width: 100%;
+  }
+  .tallyContainer {
+    gap: 54px;
+    padding-bottom: 64px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .medalTally {
+    font-size: 30px;
+  }
+  .rank,
+  .total {
+    font-size: 16px;
+  }
+  .medalIcons {
+    gap: 43px;
+  }
+  .state {
+    font-size: 16px;
+  }
+  .totalBox {
+    gap: 23px;
+  }
+  .tableButtons {
+    flex-wrap: wrap;
+  }
+  .totalRow {
+    gap: 15px;
+  }
+  .tallyContent {
+    padding-bottom: 50px;
+    box-sizing: border-box;
+  }
+  .tallyContainer {
+    gap: 27px;
+  }
+}

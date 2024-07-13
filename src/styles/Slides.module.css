@@ -1,0 +1,61 @@
+.maskGroupIcon {
+  align-self: stretch;
+  height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 100%;
+  transform: scale(1.153);
+}
+.swastiSinghsGold,
+.wrapperMaskGroup {
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+}
+.wrapperMaskGroup {
+  align-self: stretch;
+  height: 395px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swastiSinghsGold {
+  width: 362.2px;
+  line-height: 30px;
+  display: inline-block;
+}
+.slides,
+.wrapperMaskGroupParent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.wrapperMaskGroupParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 23px;
+}
+.slides {
+  width: 392.8px;
+  justify-content: flex-end;
+  padding: 0 0 19px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 24px;
+  color: #212121;
+  font-family: Lato;
+}
+@media screen and (max-width: 450px) {
+  .swastiSinghsGold {
+    font-size: 19px;
+    line-height: 24px;
+  }
+}

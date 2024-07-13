@@ -1,0 +1,188 @@
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 23px 0 0;
+  box-sizing: border-box;
+  min-width: 390px;
+  max-width: 100%;
+}
+.gamesPartners {
+  height: 46px;
+  width: 301px;
+  position: relative;
+  line-height: 46px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+}
+.bottomSeparatorChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bottomSeparator,
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bottomSeparator {
+  flex: 1;
+  flex-direction: column;
+  padding: 23px 0 0;
+  box-sizing: border-box;
+  min-width: 390px;
+}
+.frameGroup,
+.frameWrapper {
+  flex-direction: row;
+}
+.frameGroup {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 65px;
+}
+.frameWrapper {
+  align-self: stretch;
+  padding: 0 12px 0 11px;
+  box-sizing: border-box;
+}
+.sealOfUttarakhand1Icon {
+  width: 143.8px;
+  height: 145.3px;
+  position: relative;
+  object-fit: contain;
+}
+.logoContainer {
+  flex: 1;
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 36.4px 0;
+  box-sizing: border-box;
+  min-width: 295px;
+  max-width: 100%;
+}
+.sport21Icon {
+  width: 152.1px;
+  height: 172.7px;
+  position: relative;
+  object-fit: contain;
+}
+.secondLogo {
+  flex: 1;
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 22.7px 0;
+  box-sizing: border-box;
+  min-width: 295px;
+  max-width: 100%;
+}
+.ministryOfYouthAffairsAndIcon {
+  width: 259.3px;
+  height: 132px;
+  position: relative;
+  object-fit: contain;
+}
+.fourthLogo {
+  flex: 1;
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 42.9px 0;
+  box-sizing: border-box;
+  min-width: 295px;
+  max-width: 100%;
+}
+.image26Icon {
+  width: 133.6px;
+  height: 131.8px;
+  position: relative;
+  object-fit: cover;
+}
+.placeholderLogo {
+  flex: 1;
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 295px;
+  max-width: 100%;
+  min-height: 218px;
+}
+.frameParent,
+.partnerLogos {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.partnerLogos {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 27.6px;
+}
+.frameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 43.1px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 40px;
+  color: #81378f;
+  font-family: Paris2024-Variable;
+}
+@media screen and (max-width: 825px) {
+  .vectorWrapper {
+    min-width: 100%;
+  }
+  .gamesPartners {
+    font-size: 32px;
+    line-height: 37px;
+  }
+  .bottomSeparator {
+    min-width: 100%;
+  }
+  .frameGroup {
+    gap: 32px;
+  }
+  .frameParent {
+    gap: 22px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .gamesPartners {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .frameGroup {
+    gap: 16px;
+  }
+}

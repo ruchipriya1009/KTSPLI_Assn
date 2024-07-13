@@ -1,0 +1,149 @@
+.titleSeparatorChild {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  min-width: 390px;
+}
+.broadcastPartner {
+  height: 46px;
+  width: 368px;
+  position: relative;
+  line-height: 46px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.titleSeparatorItem {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  min-width: 390px;
+}
+.image40Icon,
+.titleSeparator {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.titleSeparator {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.image40Icon {
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.imageContainer {
+  flex: 0.6997;
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 79px 73px;
+  box-sizing: border-box;
+  min-width: 295px;
+  max-width: 100%;
+}
+.image41Icon {
+  width: 129px;
+  height: 129px;
+  position: relative;
+  object-fit: cover;
+}
+.imageContainer1,
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.imageContainer1 {
+  flex: 1;
+  border-radius: 16px;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 44.5px 20px;
+  box-sizing: border-box;
+  min-width: 295px;
+}
+.logos {
+  width: 813.6px;
+  flex-direction: row;
+  gap: 27px;
+  flex-shrink: 0;
+}
+.broadcast,
+.contentWrapper {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contentWrapper {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1px 0 0;
+  gap: 43px;
+}
+.broadcast {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 11px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 40px;
+  color: #81378f;
+  font-family: Paris2024-Variable;
+}
+@media screen and (max-width: 825px) {
+  .titleSeparatorChild {
+    min-width: 100%;
+  }
+  .broadcastPartner {
+    font-size: 32px;
+    line-height: 37px;
+  }
+  .titleSeparatorItem {
+    min-width: 100%;
+  }
+  .titleSeparator {
+    gap: 16px;
+  }
+  .imageContainer,
+  .imageContainer1 {
+    flex: 1;
+  }
+  .logos {
+    flex-wrap: wrap;
+  }
+  .contentWrapper {
+    gap: 21px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .broadcastPartner {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .imageContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

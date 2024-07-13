@@ -1,0 +1,395 @@
+.emptyChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.placeholder,
+.placeholder1,
+.placeholder2 {
+  position: absolute;
+  top: 76px;
+  left: 104px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #212121;
+  z-index: 1;
+}
+.placeholder1,
+.placeholder2 {
+  top: 318px;
+  left: 1489.5px;
+  letter-spacing: 0.08em;
+}
+.placeholder2 {
+  top: 836px;
+  left: 1158px;
+}
+.placeholder3,
+.placeholder4,
+.placeholder5 {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.placeholder3 {
+  top: 76px;
+  left: 791px;
+  letter-spacing: 0.08em;
+  display: inline-block;
+  width: 1027px;
+  z-index: 2;
+}
+.placeholder4,
+.placeholder5 {
+  top: 319px;
+  left: 77px;
+  letter-spacing: 0.1em;
+  z-index: 3;
+}
+.placeholder5 {
+  top: 825px;
+  z-index: 1;
+}
+.placeholder6,
+.placeholder7,
+.placeholder8,
+.placeholder9 {
+  position: absolute;
+  top: 556px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.placeholder6 {
+  left: 817px;
+  letter-spacing: 0.08em;
+  color: #212121;
+}
+.placeholder7,
+.placeholder8,
+.placeholder9 {
+  left: 77px;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+}
+.placeholder8,
+.placeholder9 {
+  left: 1171.5px;
+  letter-spacing: 0.08em;
+}
+.placeholder9 {
+  top: 825px;
+  left: 1521px;
+}
+.uttrakhand1Icon {
+  height: 193px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.countdown {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 28px 0 32px;
+}
+.nationalGames,
+.timeLeftUntil,
+.uttarakhand2024 {
+  margin: 0;
+}
+.timeLeftUntilContainer {
+  height: 96px;
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.timeLeftUntilTheNationalGWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 35px 0 38px;
+}
+.days,
+.placeholder10 {
+  position: relative;
+  display: inline-block;
+}
+.placeholder10 {
+  font-weight: 600;
+  min-width: 41px;
+}
+.days {
+  height: 13px;
+  min-width: 39px;
+}
+.daysContainer,
+.daysWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.daysWrapper {
+  flex-direction: row;
+  padding: 0 1px;
+  font-size: 20px;
+  color: #444;
+  font-family: Lato;
+}
+.daysContainer {
+  flex-direction: column;
+  gap: 4px;
+}
+.filler {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.minutesAndSeconds {
+  align-self: stretch;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 22px 0 19px;
+  box-sizing: border-box;
+}
+.hours {
+  position: relative;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Lato;
+  color: #444;
+  display: inline-block;
+  min-width: 59px;
+  flex-shrink: 0;
+}
+.daysAndHours,
+.hoursAndMinutes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hoursAndMinutes {
+  align-self: stretch;
+}
+.daysAndHours {
+  width: 59px;
+  padding: 1px 0 0;
+  box-sizing: border-box;
+}
+.div {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 30.8px;
+  flex-shrink: 0;
+}
+.wrapper {
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 7px 0 4px;
+  box-sizing: border-box;
+}
+.mins {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Lato;
+  color: #444;
+  flex-shrink: 0;
+}
+.daysAndHours1,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+}
+.daysAndHours1 {
+  width: 46px;
+  padding: 1px 4px 0 0;
+  box-sizing: border-box;
+}
+.empty1,
+.sec {
+  position: relative;
+  flex-shrink: 0;
+}
+.empty1 {
+  align-self: stretch;
+  font-weight: 600;
+}
+.sec {
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 32.3px;
+}
+.secWrapper,
+.secondsInner {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.secWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 1px 0 2px;
+  margin-top: -2px;
+  font-size: 20px;
+  color: #444;
+  font-family: Lato;
+}
+.secondsInner {
+  flex-direction: column;
+}
+.secondsInner,
+.secondsInnerWrapper,
+.timer {
+  display: flex;
+  align-items: flex-start;
+}
+.secondsInnerWrapper {
+  width: 36.2px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+  box-sizing: border-box;
+}
+.timer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1px 0 0;
+  gap: 20px;
+  text-align: left;
+  font-size: 30px;
+  color: #212121;
+  font-family: Paris2024-Variable;
+}
+.countdownAndFooter,
+.stateName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.stateName {
+  align-self: stretch;
+  gap: 40px;
+}
+.countdownAndFooter {
+  position: absolute;
+  top: 416.5px;
+  left: 199.1px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  width: 410px;
+  padding: 36.2px 68px 36.2px 65px;
+  box-sizing: border-box;
+  gap: 31.6px;
+  z-index: 4;
+  text-align: center;
+  font-size: 24px;
+  color: #404040;
+  font-family: Lato;
+}
+.empty {
+  align-self: stretch;
+  height: 1105px;
+  position: relative;
+  background-color: #fff;
+  text-align: left;
+  font-size: 260px;
+  color: #eee;
+  font-family: "Noto Sans";
+}
+@media screen and (max-width: 825px) {
+  .placeholder,
+  .placeholder1,
+  .placeholder2,
+  .placeholder3,
+  .placeholder4,
+  .placeholder5,
+  .placeholder6,
+  .placeholder7,
+  .placeholder8,
+  .placeholder9 {
+    font-size: 104px;
+  }
+  .div,
+  .empty1,
+  .filler,
+  .placeholder10 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .placeholder,
+  .placeholder1,
+  .placeholder2,
+  .placeholder3,
+  .placeholder4,
+  .placeholder5,
+  .placeholder6,
+  .placeholder7,
+  .placeholder8,
+  .placeholder9 {
+    font-size: 65px;
+  }
+  .timeLeftUntilContainer {
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .placeholder10 {
+    font-size: 18px;
+  }
+  .days {
+    font-size: 16px;
+  }
+  .filler {
+    font-size: 18px;
+  }
+  .hours {
+    font-size: 16px;
+  }
+  .div {
+    font-size: 18px;
+  }
+  .mins {
+    font-size: 16px;
+  }
+  .empty1 {
+    font-size: 18px;
+  }
+  .sec {
+    font-size: 16px;
+  }
+  .timer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .empty {
+    height: auto;
+    min-height: 1105;
+  }
+}
